@@ -5,19 +5,16 @@ import java.util.List;
 public class Main
 {
 	public static void main(String[] args) {
-		System.out.println("Fizz");
-// 		List<Integer> arr=Arrays.asList(6, -5, -6, 7, -8, -9);
 
         List<Integer> arr=Arrays.asList(1,-2,3,4,5,-6,-7);
         // List<Integer> arr=Arrays.asList(-2, 3, 1, -5, 999);
 
-  int recordMin = 0;
-  int sum = 0;
-  for (int elm: arr) {
- 
-    sum += elm;
-    recordMin = Math.min(recordMin, sum);
-  }
+	 int recordMin = 0;
+	 int sum = 0;
+		  for(int elm:arr){
+		    sum += elm;
+		    recordMin = Math.min(recordMin, sum);
+		  }
 
 
 
