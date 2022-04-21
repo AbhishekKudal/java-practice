@@ -1,11 +1,13 @@
+/* Write a function solution that, given two integers N and K, returns a palindrome of length N which consists of K distinct lower-case letters(a-z)*/
+
 import java.util.Random;
 
 public class Palindrome {
     public static void main(String[] args) {
-        int length = 20;
+        int n = 20; //length
         int k = 10; //Distinct characters
-        char[] randChar = generateCharacters(length);
-        String result = Palindrome.solution(randChar, length, k);
+        char[] randChar = generateCharacters(n);
+        String result = Palindrome.solution(randChar, n, k);
         System.out.print(result);
     }
 
