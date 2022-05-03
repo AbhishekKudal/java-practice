@@ -6,7 +6,7 @@ https://leetcode.com/problems/largest-perimeter-triangle/
 
 import java.util.Arrays;
 
-class Solution {
+class LargestPerimeterTriangle {
     public int largestPerimeter(int[] nums) {
         int max = 0;
         Arrays.sort(nums);
