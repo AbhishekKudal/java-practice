@@ -1,6 +1,12 @@
+/*
+1790. Check if One String Swap Can Make Strings Equal
+
+https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/
+*/
+
 import java.util.*;
 
-class Solution {
+class StringSwap {
     public boolean areAlmostEqual(String s1, String s2) {
         int nonEqual = 0;
         // int s1Sum = 0;
