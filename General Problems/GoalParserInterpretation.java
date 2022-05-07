@@ -3,3 +3,23 @@
 
 https://leetcode.com/problems/goal-parser-interpretation/
 */
+
+class Solution {
+    public String interpret(String command) {
+        
+        StringBuilder st = new StringBuilder();
+        
+        for(int i = 0; i < command.length(); i++){
+            if(command.charAt(i) == 'G'){
+                st.append('G');
+            }
+            if(i < command.length() - 1 && command.charAt(i) == '(' && command.charAt(i+1) == ')'){
+                st.append('o');
+            }
+            if(i < command.length() - 1 && command.charAt(i) == '(' && command.charAt(i+1) == 'a'){
+                st.append("al");
+            }            
+        }
+        return st.toString();
+    }
+}
