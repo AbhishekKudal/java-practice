@@ -4,7 +4,7 @@
 https://leetcode.com/problems/goal-parser-interpretation/
 */
 
-class Solution {
+class Solution1 {
     public String interpret(String command) {
         
         StringBuilder st = new StringBuilder();
