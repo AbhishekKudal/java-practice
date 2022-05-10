@@ -1,3 +1,9 @@
+/*
+1603. Design Parking System
+
+https://leetcode.com/problems/design-parking-system/
+*/
+
 class ParkingSystem {
     
     int big, medium, small;
