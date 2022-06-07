@@ -4,7 +4,7 @@
 https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
 */
 
-class Solution {
+class MostStonesRemoved {
     public int removeStones(int[][] stones) {
  
         HashSet<Pair <Integer,Integer>> visited = new HashSet<>(); 
