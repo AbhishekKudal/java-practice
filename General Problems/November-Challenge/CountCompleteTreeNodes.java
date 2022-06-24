@@ -21,7 +21,7 @@ https://leetcode.com/problems/count-complete-tree-nodes/
  * }
  */
  
-class Solution {
+class CountCompleteTreeNodes {
     public int countNodes(TreeNode root) {
         if(root==null){
             return 0;
