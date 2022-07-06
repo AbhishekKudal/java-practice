@@ -4,7 +4,7 @@
 https://leetcode.com/problems/rectangle-area
 */
 
-class Solution {
+class CalculateRectangleArea {
     public int computeArea(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
         int area1 = Math.abs(ax2 - ax1) * Math.abs(ay2-ay1);
         int area2 = Math.abs(bx2 - bx1) * Math.abs(by2-by1);
