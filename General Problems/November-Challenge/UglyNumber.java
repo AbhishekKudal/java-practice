@@ -6,6 +6,7 @@ https://leetcode.com/problems/ugly-number
 
 class Solution {
     int number = 2;
+    
     public boolean isUgly(int n) {
         if(n == 0){
             return false;
