@@ -4,7 +4,7 @@
 https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 */
 
-class Solution {
+class RemoveAllAdjacentDuplicates {
     public String removeDuplicates(String s) {
         StringBuilder sb = new StringBuilder(s);
         remove(sb);
