@@ -3,6 +3,7 @@
 
 https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
 */
+
 class CountOddNumbers {
     public int countOdds(int low, int high) {
         int nums = high - low + 1;
