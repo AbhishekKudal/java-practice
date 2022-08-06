@@ -1,4 +1,4 @@
-//Search a given element in an Array; if found return its index else return -1
+//Search a given element in an Sorted Ascending Array; if found return its index else return -1
 
 public class binarySearch {
     public static void main(String[] args) {
