@@ -10,7 +10,7 @@ public class binarySearch {
     static int search(int arr[], int target){
         int start = 0;
         int end = arr.length;
-        while(start<end){
+        while(start <= end){
             int mid = (start + end)/2;
             if(target>arr[mid]){
                 start = mid + 1;
