@@ -2,6 +2,7 @@
  * Complexity: Best Case = Worst Case = O(n^2)
  * Works well for small lists/arrays
  */
+
 import java.util.Arrays;
 
 public class SelectionSort {
