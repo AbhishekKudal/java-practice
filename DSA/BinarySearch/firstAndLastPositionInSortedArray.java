@@ -20,10 +20,10 @@ public class firstAndLastPositionInSortedArray {
     }
 
     static int[] searchEngine(int[] arr, int target){
-        int[] ans = {-1,-1};
-        ans[0] = binarySearch(arr, target, true);
-        ans[1] = binarySearch(arr, target, false);
-        return ans;
+        int[] finalAns = {-1,-1};
+        finalAns[0] = binarySearch(arr, target, true);
+        finalAns[1] = binarySearch(arr, target, false);
+        return finalAns;
     }
 
     static int binarySearch(int[] arr, int target, boolean startIndex){
