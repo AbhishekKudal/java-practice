@@ -2,7 +2,7 @@
 https://leetcode.com/problems/peak-index-in-a-mountain-array/
 */
 
-public class PeakElementInMountainArray {
+public class peakElementInMountainArray {
     public static void main(String[] args) {
         int[] arr = {1,2,5,8,6,3};
         System.out.println(peakElementInMountainArray.search(arr));
