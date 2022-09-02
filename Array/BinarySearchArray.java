@@ -1,5 +1,5 @@
 import java.util.*; 
-public class binarySearch {
+public class BinarySearch {
     public static void main(String args[]) {
       char charArr[] = {'b','c','a','d','e'};
       byte byteArr[] = {10,20,127,22,50,45};
