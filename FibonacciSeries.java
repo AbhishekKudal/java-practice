@@ -3,8 +3,9 @@ public class FibonacciSeries {
       int firstTerm = 0;
       int secondTerm = 1;
       int n = 15;
-      int answer = 0;
-          System.out.println("Fibonacci Series till " + n + " terms:");
+      int answer = 0;  
+      System.out.println("Fibonacci Series till " + n + " terms:");
+        
       for(int i=0;i<n;i++){
          answer = firstTerm + secondTerm;
          System.out.print(answer+", ");
@@ -15,7 +16,8 @@ public class FibonacciSeries {
          System.out.println(ans);
     }
     
-    // another better approach
+    // another approach to get the n th fibonacci number
+    
     public static fibo(int n){
         if(n<2){
             return n;
