@@ -19,10 +19,10 @@ public class FibonacciSeries {
     // another approach to get the n th fibonacci number
     
     public static fibo(int n){
-        if(n<2){
+        if(n < 2){
             return n;
         }
-        return fibo(n-1) + fibo(n-2);
+        return fibo(n - 1) + fibo(n - 2);
     }
 }
 
