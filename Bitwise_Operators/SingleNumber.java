@@ -1,3 +1,7 @@
+//136. Single Number
+
+//https://leetcode.com/problems/single-number/submissions/
+
 class SingleNumber {
     public int singleNumber(int[] nums) {
         int ans = 0;
