@@ -1,5 +1,4 @@
 /*
-
 Vaccine distribution
 
 There is a large manufacturer of vaccine which produces M types of
