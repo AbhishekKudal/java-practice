@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class BubbleSortUsingRecursion {
     public static void main(String[] args) {
-        int[] arr = {2,5,3,4,1};
+        int[] arr = {2,5,3,4,1,6};
         sort(arr, arr.length - 1, 0);
         System.out.println(Arrays.toString(arr));
     }
