@@ -1,8 +1,39 @@
-//Sieve of Eratosthenes
+/*Sieve of Eratosthenes
 
-//204. Count Primes
+204. Count Primes
 
-//https://leetcode.com/problems/count-primes/
+https://leetcode.com/problems/count-primes/
+*/
+
+
+/*
+Solution 1:
+Sieve of Eratosthenes
+
+Time Complexity: O(N * log(log N))
+Space Complexity: N
+*/
+
+class SieveOfEratosthenes {
+    public int countPrimes(int n) {        
+        int count = 0;
+        boolean[] primes = new boolean[n + 1];
+        
+        for(int i = 2; i <= Math.sqrt(n); i++){
+            if(! primes[i]){
+                for(int j = i*2; j <= n; j += i){
+                    primes[j] = true;                    
+                }
+            }
+        }
+        for(int i = 2; i < n; i++){
+            if(!primes[i]){
+                count++;
+            }
+        }
+        return count;
+    }
+}
 
 //Brute-force
 class CountPrimeNumber1 {
@@ -26,27 +57,5 @@ class CountPrimeNumber1 {
             return count;
         }
         
-    }
-}
-
-//Sieve of Eratosthenes
-class SieveOfEratosthenes {
-    public int countPrimes(int n) {        
-        int count = 0;
-        boolean[] primes = new boolean[n + 1];
-        
-        for(int i = 2; i <= Math.sqrt(n); i++){
-            if(! primes[i]){
-                for(int j = i*2; j <= n; j += i){
-                    primes[j] = true;                    
-                }
-            }
-        }
-        for(int i = 2; i < n; i++){
-            if(!primes[i]){
-                count++;
-            }
-        }
-        return count;
     }
 }
