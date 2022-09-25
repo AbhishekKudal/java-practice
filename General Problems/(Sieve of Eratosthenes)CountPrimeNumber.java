@@ -1,8 +1,11 @@
+//Sieve of Eratosthenes
+
 //204. Count Primes
 
 //https://leetcode.com/problems/count-primes/
 
-class CountPrimeNumber {
+//Brute-force
+class CountPrimeNumber1 {
     public int countPrimes(int n) {
         int count = 0;
         if(n == 0 || n == 1 || n == 2){
@@ -23,5 +26,27 @@ class CountPrimeNumber {
             return count;
         }
         
+    }
+}
+
+//Sieve of Eratosthenes
+class SieveOfEratosthenes {
+    public int countPrimes(int n) {        
+        int count = 0;
+        boolean[] primes = new boolean[n + 1];
+        
+        for(int i = 2; i <= Math.sqrt(n); i++){
+            if(! primes[i]){
+                for(int j = i*2; j <= n; j += i){
+                    primes[j] = true;                    
+                }
+            }
+        }
+        for(int i = 2; i < n; i++){
+            if(!primes[i]){
+                count++;
+            }
+        }
+        return count;
     }
 }
