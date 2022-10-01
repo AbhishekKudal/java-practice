@@ -52,7 +52,8 @@ public class LinearSearchUsingRecursion {
             return findIndexFromLast(arr, target, index - 1);
         }
     } 
-
+       
+    //Using ArrayList to return all the ocurrances of a number in an Array (Without passing ArrayList)
     static ArrayList<Integer> list = new ArrayList<>();
     static void findAll(int[] arr, int target, int index){
         if(index == arr.length){
@@ -66,7 +67,9 @@ public class LinearSearchUsingRecursion {
         findAll(arr, target, index + 1);
 
     }
-
+    
+    
+    //Using ArrayList to return all the ocurrances of a number in an Array (With passing ArrayList)
     static ArrayList<Integer> listNew = new ArrayList<>();
     static ArrayList<Integer> findAllUsingArrayList(int[] arr, int target, int index, ArrayList<Integer> listNew){
         if(index == arr.length){
