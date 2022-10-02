@@ -27,7 +27,7 @@ public class LinearSearchUsingRecursion {
         return arr[index] == target || find(arr, target, index + 1);
     }
 
-    //returning integer
+    //returning index integer
     static int findIndex(int[] arr, int target, int index){
         if(index == arr.length){
             return -1;
