@@ -5,7 +5,7 @@ https://leetcode.com/problems/length-of-last-word/
 */
 
 
-class Solution1 {
+class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         int count = 0;
         for(int i = s.length() - 1 ; i >= 0; i--){
@@ -21,7 +21,7 @@ class Solution1 {
     }
 }
 
-class Solution2 {
+class LengthOfLastWord2 {
     public int lengthOfLastWord(String s) {
         int count = 0;
         for(int i = s.length() - 1; i >= 0; i--){
