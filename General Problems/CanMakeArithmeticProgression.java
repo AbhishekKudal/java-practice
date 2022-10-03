@@ -6,7 +6,7 @@ https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/subm
 
 import java.util.*;
 
-class Solution {
+class CanMakeArithmeticProgression {
     public boolean canMakeArithmeticProgression(int[] arr) {
         Arrays.sort(arr);
         int diff = 0;

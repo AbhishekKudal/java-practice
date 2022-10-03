@@ -10,7 +10,7 @@ class CheckStraightLine {
         System.out.println(checkStraightLine(arr));
     }
     
-    public boolean checkStraightLine(int[][] coordinates) {        
+    static boolean checkStraightLine(int[][] coordinates) {        
         if(coordinates.length == 2) return true;
         
         int xDiff = coordinates[1][0] - coordinates[0][0];
