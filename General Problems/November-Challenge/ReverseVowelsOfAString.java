@@ -1,4 +1,10 @@
-class ReowelsOfString {
+/*
+345. Reverse Vowels of a String
+
+https://leetcode.com/problems/reverse-vowels-of-a-string
+*/
+
+class ReverseVowelsOfString {
     public String reverseVowels(String s) {
         int start = 0;
         int end = s.length() - 1;
