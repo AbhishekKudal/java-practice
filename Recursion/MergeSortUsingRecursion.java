@@ -4,6 +4,13 @@
 
 //https://leetcode.com/problems/sort-an-array/
 
+/*
+Complexity - 
+    * Time = O(nlog(n))
+    * Space = O(n)
+* Merge sort is preferred in case of linked list as linked list does not have continuous memory allocation which is the case for Arrays  
+*/
+
 import java.util.Arrays;
 
 class Solution {
