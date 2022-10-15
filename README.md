@@ -12,4 +12,4 @@ Regular Expressions (Regex) Character Classes: https://www.petefreitag.com/cheat
 
 To generate random number: 
 - Random randomGenerator=new Random();
-- randomGenerator.nextInt((maximum – minimum) + 1) + minimum
+- randomGenerator.nextInt(maximum – minimum)
