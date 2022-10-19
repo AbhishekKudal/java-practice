@@ -5,7 +5,6 @@ https://leetcode.com/problems/range-sum-query-immutable/
 */
 
 class NumArray {
-
     int[] nums1;
     public NumArray(int[] nums) {
         this.nums1 = nums;
