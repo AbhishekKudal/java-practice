@@ -40,7 +40,6 @@ class Solution2 {
                 }
             }
         }
-        return sb.toString();
-          
+        return sb.toString();    
     }
 }
