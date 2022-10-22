@@ -8,7 +8,7 @@ public class SubSequenceUsingRecursion {
         subSeq("", "abc");
     }
 
-    static void subSeq(String p, String up){
+    static void subSeq(String p, String up){        //p - Processed String and up - UnProcessed String
         if(up.isEmpty()){
             System.out.println(p);
             return;
