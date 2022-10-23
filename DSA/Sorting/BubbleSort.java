@@ -34,7 +34,7 @@ public class BubbleSort {
                     swapped = true;
                 }
             }
-            //if you did not swap for a particular ith pass, it means array is sorted hence stop the program
+            //if you did not swap for a particular ith pass, it means array is already sorted hence stop the program
             if(!swapped){
                 break;
             }
