@@ -1,4 +1,15 @@
 /*
+** Selection Sort:
+
+Find a max element in the array and replace it with the last index
+    Find second max and replace it with second last ...
+    
+    or
+    
+Find a min element in the array and replace it with first index 
+    Find second min and replace with second index ...
+
+
  * Complexity: Best Case = Worst Case = O(n^2)
  * Works well for small lists/arrays
  */
@@ -17,7 +28,7 @@ public class SelectionSort {
             //find the max in remaining array and swap it with correct index
 
             int lastIndex = arr.length - 1 - i;                        //respective last index to swap
-            int maxIndex = getMaxIndex(arr, 0, lastIndex);      //respective max value to swap
+            int maxIndex = getMaxIndex(arr, 0, lastIndex);             //respective max value to swap
             swap(arr, maxIndex, lastIndex);
         }
     }
