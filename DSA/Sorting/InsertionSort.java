@@ -1,4 +1,9 @@
 /*
+** Insertion Sort:
+(Bubble Sort version 2.0)
+
+*** Sort in Parts ***
+
  * Time complexity: Worst case = O(n^2)
  *                  Best case = O(n)        As we are breaking the loop if array is sorted
  * 
