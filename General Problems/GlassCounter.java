@@ -30,7 +30,7 @@ public class GlassCounter {
                     break;
                 }
             }
-            return count;
+            return count; 
         }
     }
 }
