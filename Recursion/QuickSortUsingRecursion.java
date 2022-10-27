@@ -2,8 +2,8 @@
  * Quick Sort (Single Pivot)
  * 
  * Complexity:
-    * Best case: O(nlog(n))
-    * Worst Case: O(n^2)
+    * Best case: O(nlog(n))      When Pivot is at the center
+    * Worst Case: O(n^2)         When Pivot is at extreme ends (right/left)
  * 
  * Not Stable
  * In-place sorting algorithm
