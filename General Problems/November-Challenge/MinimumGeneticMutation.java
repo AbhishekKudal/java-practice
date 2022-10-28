@@ -1,3 +1,9 @@
+/*
+433. Minimum Genetic Mutation
+
+https://leetcode.com/problems/minimum-genetic-mutation/
+*/
+
 class Solution {
     // Intuition: we can see each string as a node and we can connect them if 
     // 1. there is only one single character different
