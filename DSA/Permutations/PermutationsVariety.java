@@ -58,6 +58,7 @@ public class PermutationsVoid {
         int count = 0;
 
         for(int i = 0; i < p.length() + 1; i++){
+
             String first = p.substring(0, i);
             String second = p.substring(i, p.length());
 
