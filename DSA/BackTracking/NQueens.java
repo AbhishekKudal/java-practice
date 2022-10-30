@@ -1,4 +1,4 @@
-//Time complexity - O(n!)  //[n factorial]
+//Time complexity - O(n!)   //[n factorial]
 
 package BackTracking;
 
