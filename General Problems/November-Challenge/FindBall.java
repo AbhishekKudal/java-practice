@@ -1,3 +1,9 @@
+/*
+1706. Where Will the Ball Fall
+
+https://leetcode.com/problems/where-will-the-ball-fall/
+*/
+
 class FindBall {
     public int[] findBall(int[][] grid) {
         int m = grid.length;
