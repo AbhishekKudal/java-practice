@@ -1,4 +1,16 @@
 /*
+# Intuition
+Use the LinkedList Fast-Slow Pointer Logic
+
+# Approach
+* When the fast pointer reaches end of the list, the slow pointer would be at the center of the list.
+
+# Complexity
+- Time complexity: O(n/2)
+
+- Space complexity: O(1)
+
+
 876. Middle of the Linked List
 
 https://leetcode.com/problems/middle-of-the-linked-list
