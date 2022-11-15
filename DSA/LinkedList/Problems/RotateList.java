@@ -1,4 +1,6 @@
 /*
+*******Google/Microsoft*******
+
 61. Rotate List
 
 https://leetcode.com/problems/rotate-list
@@ -46,6 +48,56 @@ class Solution1Self {
             head = second;
         }
 
+        return head;
+    }
+}
+
+//More efficient solution
+class Solution2Kunal {
+    public ListNode reverseKGroup(ListNode head, int k) {
+        ListNode prev = null;
+        ListNode current = head;
+        ListNode next = current.next;
+
+        while(true){
+            if(k < 2 || head == null){
+                return head;
+            }
+
+            ListNode newEnd = current;
+            ListNode last = prev;
+            ListNode node = current;
+
+            for(int i = 0; i < k-1 && node != null; i++){
+                node = node.next;
+            }
+
+            if(node == null) break;
+
+            for(int i = 0; (current != null) && i < k; i++){
+                current.next = prev;
+                prev = current;
+                current = next;
+
+                if(next != null){
+                    next = next.next;
+                }
+            }
+
+            if(last != null){
+                last.next = prev;
+            }else{
+                head = prev;
+            }
+
+            newEnd.next = current;
+
+            if(current == null){
+                break;
+            }
+
+            prev = newEnd;
+        }
         return head;
     }
 }
