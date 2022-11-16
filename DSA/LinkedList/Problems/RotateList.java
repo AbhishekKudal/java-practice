@@ -16,6 +16,7 @@ https://leetcode.com/problems/rotate-list
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
 class Solution1Self {
     public ListNode rotateRight(ListNode head, int k) {
         if(head == null || head.next == null || k == 0){
