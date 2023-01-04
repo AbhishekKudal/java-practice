@@ -2,7 +2,7 @@
 ------------------------------------------------------
 Java Practice Problems 
 -----------
-
+* [MarkDown Standard Practices](https://www.markdownguide.org/basic-syntax/)
 * ASCII Values: https://www.petefreitag.com/cheatsheets/ascii-codes/
 
 * Regex: https://www.petefreitag.com/cheatsheets/regex/
