@@ -1,5 +1,10 @@
 //BFS - Find the successor
 
+/*
+Time - O(n)
+Space - O(n)
+*/
+
 public TreeNode findSuccessor(TreeNode root, int key){
   if(root == null){
     return null;
